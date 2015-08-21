@@ -1,2 +1,1 @@
-require('./emily');
-require('./kupka');
+var fs = require('fs')
