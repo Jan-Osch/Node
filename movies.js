@@ -1,9 +1,5 @@
-function printAvatar(){
-	console.log('Avatar: PG-13');
+module.exports = function (){
+	return {
+		favMovie: "",
+	}
 }
-
-function printChappie(){
-	console.log('Chappie: R');
-}
-
-module.exports.avatar = printAvatar;
